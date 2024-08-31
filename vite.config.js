@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
    build: {
     rollupOptions: {
-      external: ['@mui/icons-material/Highlight']
+      external: ['@mui/icons-material/Delete', '@mui/icons-material/Highlight']
     }
   }
 })
